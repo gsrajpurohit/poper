@@ -1,0 +1,129 @@
+body {
+    color: #333;
+    transition: all 0.5s ease-in-out;
+}
+.poper-show {
+    overflow: hidden;
+}
+.poper-splace {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+.poper-wrapper {
+    margin: 30px auto;
+}
+
+@media (min-width: 768px){
+    .poper-wrapper.poper-big {
+        width: 900px;
+    }
+    .poper-wrapper.poper-mid {
+        width: 600px;
+    }
+    .poper-wrapper.poper-small {
+        width: 300px;
+    }
+}
+
+.poper-wrapper.radish .poper-header {
+    background-color: #F1494C !important;
+    color: #ffffff !important;
+}
+.poper-wrapper.red .poper-header {
+    background-color: #dc3545 !important;
+    color: #ffffff !important;
+}
+.poper-wrapper.blue .poper-header {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+}
+.poper-wrapper.green .poper-header {
+    background-color: #28a745 !important;
+    color: #ffffff !important;
+}
+.poper-wrapper.black .poper-header {
+    background-color: #343a40 !important;
+    color: #ffffff !important;
+}
+
+.poper-header h3 {
+    margin: 0;
+    padding: 15px;
+    font-size: 22px;
+}
+.poper-header h3 span.dismiss {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    cursor: pointer;
+}
+.poper-header h3 span.dismiss:hover {
+    opacity: .4;
+}
+
+.poper-wrapper.black .poper-header h3 span.dismiss {
+    color: #fff;
+    text-shadow: 0 1px 0 #000;
+}
+
+.poper-wrapper .poper-body {
+    background-color: #fff;
+    display: block;
+    padding: 10px 15px;
+}
+.poper-wrapper .poper-footer {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.poper-footer a.btn-action {
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+.poper-footer a.btn-ok:hover {
+    background-color: #67a028;
+    color: #fff;
+}
+.poper-footer a.btn-close:hover {
+    background-color: #F1494C;
+    color: #fff;
+}
+.poper-footer a.btn-close {
+    border-left: 1px solid #ccc;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+
+code span {
+    display: block;
+    margin-left: 30px
+}
