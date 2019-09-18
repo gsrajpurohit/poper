@@ -29,6 +29,9 @@ In the page's footer, just before, include the required JavaScript files.
 #### OR by data attributes
 `<div  data-poper="true" data-size="big" data-theme="blue" data-header-text="Heading" data-content="data content 2<br>data content 2<br>data content 2<br>data content 2<br>data content 2"></div>`
 
+### Example
+![Screenshot](poper.png)
+
 ### Demo
 [Demo](https://gsrajpurohit.github.io/poper/).
 
