@@ -153,12 +153,22 @@ header.masthead .bg-circle-4 {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
 
+
 footer a {
-  color: #fff !important;
-  font-size: 20px;
+    color: #fff !important;
+    font-size: 20px;
     text-decoration: none !important;
     margin: 0 5px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 45px;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
 }
 footer a:hover {
-  color: #ee0979 !important;
+    color: #ee0979 !important;
+    border: 1px solid #fff;
 }
