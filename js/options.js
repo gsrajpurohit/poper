@@ -3,7 +3,7 @@ $(function() {
             theme: 'blue',
             size: 'mid',
             headerText: "Poper By PHP",
-            content: "poper/test.php",
+            content: "/poper/test.php",
             remote: true
         })
         .on('poper.show', function(event) {
