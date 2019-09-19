@@ -3,7 +3,7 @@ $(function() {
             theme: 'blue',
             size: 'mid',
             headerText: "Poper By PHP",
-            content: "../test.php",
+            content: "poper/test.php",
             remote: true
         })
         .on('poper.show', function(event) {
@@ -22,7 +22,7 @@ $(function() {
             theme: 'blue',
             size: 'small',
             headerText: "Poper By HTML",
-            content: "../test.html",
+            content: "poper/test.html",
             remote: true
         })
     $('[data-poper="true"]').on('poper.hide', function(event) {
