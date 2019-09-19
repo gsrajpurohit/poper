@@ -1,4 +1,4 @@
-<?php //echo json_encode(['data'=>'test' ]) ?>
+
 <h3>this is body content coming from an URL</h3>
 <div class="col-sm-12 form-group">
     <div class="col-sm-3">
