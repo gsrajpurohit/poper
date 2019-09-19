@@ -22,7 +22,7 @@ $(function() {
             theme: 'blue',
             size: 'small',
             headerText: "Poper By HTML",
-            content: "poper/test.html",
+            content: "../poper/test.html",
             remote: true
         })
     $('[data-poper="true"]').on('poper.hide', function(event) {
