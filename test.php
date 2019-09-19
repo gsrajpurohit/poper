@@ -1,5 +1,5 @@
 
-<h3>this is body content coming from an URL</h3>
+<h3>PHP File</h3>
 <div class="col-sm-12 form-group">
     <div class="col-sm-3">
         <label class="control-label">Name</label>
